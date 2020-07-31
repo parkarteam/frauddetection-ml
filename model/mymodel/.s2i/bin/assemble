@@ -2,6 +2,9 @@
 echo "Before assembling"
 echo `pwd`
 echo `ls -l`
+echo 'ls -l /'
+chmod -R g+w /microservice
+echo 'ls -l /'
 /s2i/bin/assemble
 rc=$?
 
