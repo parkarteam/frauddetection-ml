@@ -1,10 +1,11 @@
 import boto3
 import botocore
-from sklearn.externals import joblib
+# from sklearn.externals import joblib
 import pandas as pd
 import numpy as np
 import json
-
+# import sklearn.external.joblib as extjoblib
+import joblib
 
 class mymodel(object):
     
