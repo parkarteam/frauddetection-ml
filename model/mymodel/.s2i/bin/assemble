@@ -1,6 +1,7 @@
 #!/bin/bash
 echo "Before assembling"
-
+echo `pwd`
+echo `ls -l`
 /s2i/bin/assemble
 rc=$?
 
