@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Before running application"
+exec /s2i/bin/run
